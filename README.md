@@ -3,7 +3,7 @@
 
 Containerized util to pretty print Redis hashes to the console.
 
-<img src="https://raw.githubusercontent.com/evanx/scan-llen/master/docs/readme/main2.png"/>
+<img src="https://raw.githubusercontent.com/evanx/hgetall-console/master/docs/readme/main.png"/>
 
 ## Build
 

@@ -1,0 +1,29 @@
+{
+  "name": "hgetall-console",
+  "version": "0.1.0",
+  "description": "Containerized util to pretty print Redis hashes to the console.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint --cache src",
+    "start": "node --harmony lib/index.js"
+  },
+  "author": {
+    "url": "https://twitter.com/@evanxsummers"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^1.2.0",
+    "redis-app": "^0.9.14"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanx/hgetall-console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evanx/hgetall-console/issues"
+  },
+  "homepage": "https://github.com/evanx/hgetall-console#readme"
+}

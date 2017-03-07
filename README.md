@@ -27,7 +27,7 @@ This will `HGETALL` a Redis hashes key `person:1:h` and pretty print to the cons
 
 See `bin/test.sh` https://github.com/evanx/hgetall-console/blob/master/bin/test.sh
 ```javascript
-redis-cli hset $key name 'Richard Feyman'
+redis-cli hset $key name 'Richard Feynman'
 redis-cli hset $key about 'https://en.wikipedia.org/wiki/Richard_Feynman'
 redis-cli hset $key born '1918-05-11'
 redis-cli hset $key died '1988-02-15'
